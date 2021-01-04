@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./ciudad.css">
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+<div class="font">
+    <div class = "logo">
+        <img src="./img/i.jpg" alt="GENTE & CIUDAD LOGO" width="150" height="120" />
+    </div>
+    <div class = "tabs" >
+        <a style="text-decoration: none" href = "Inicio.html">Inicio</a><a>&emsp;/&emsp;</a><a style="text-decoration: none" href = "AboutUs.html">Nosotros</a><a>&emsp;/&emsp;</a><a style="text-decoration: none" href = "NuestrosEquipos.html">Equipos</a><a>&emsp;/&emsp;</a><a  style="text-decoration: none" href = "NuestroBlog.html">Blog</a><a>&emsp;/&emsp;</a><a style="text-decoration: none" href="ContactUs.html">Contacto</a><a>&emsp;/&emsp;</a><a style="text-decoration: none" href = "Login.html">Inicio de Sesion</a>
+
+    </div>
+    <div class = "PageTitle">
+        <div class = "Title-text">
+            <p style="font-size: 32px">REGISTRATE</p>
+            <p>INICIO > REGISTRATE</p>
+        </div>
+    </div>
+
+    <div class="register">
+        <p style="font-size: 24px; text-align: center">We don't recognize you as our user, so please register </p>
+        <p style="font-size: 32px; text-align: center">Register <span style="color: orange"><i>Now</i></span></p>
+        <div class="row">
+            <div class="column1_reg">
+                <p>Tu Nombre (requerido): </p>
+                <p><br/>Tu Correo (requerido): </p>
+                <p><br/>Contraseña:</p>
+                <p><br/>Fecha De Nacimiento:</p>
+                <p><br/>Habla a:</p>
+                <p><br/>Teléfono:</p>
+
+            </div>
+            <div class="column2_reg">
+                <form action="/action.php" method="post">
+                    <input name="name" type="text"  size="45" style="height: 35px"/> <br /><br/>
+                    <input  name="email" type="text"  size="45" style="height: 35px" /> <br /><br/>
+                    <input  name="Password" type="password" size="45" style="height: 35px" /> <br /><br/>
+                    <input type="date" name="Date of birth" style="height: 35px"> <br /><br/>
+                    <input type="text" name="Address" style="height: 35px"><br/><br/>
+                    <input type="tel" name="phone" style="height: 35px"><br/><br/>
+
+                    <input class= "submit_button" type="Submit" value="REGISTRATE"/>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <br style="position: relative; top: 60px ">
+        <p style="font-size: 24px; text-align: center">Already registered? Login here</p><p>
+    <span style="position: relative; left: 48%"> <a href="Login.html" ><input class= "submit_button" type="Submit" value="Login "/></a></span></p>
+    </div>
+
+    <div class = "Footer">
+        <div class = "Footer-Text">
+            <h2>Escribenos, te invitamos a brindar lo mejor de ti para el bien<br/>comun,<span style="color: orange"> queremos conocer acerca de tus ideas para mejorar.</span></h2>
+        </div>
+    </div>
+    <div class="Footer2">
+        <div class="Footer-logo">
+            <a href="mailto:admin@genteyciudad.com"> <img height="40px" width="40px" src="./img/email-wb.PNG"></a> &emsp;<a href="www.twitter.com/genteyciudadorg"><img width="40px" height="40px" src="./img/twitter-wb.PNG"></a>&emsp;<a href="www.instagram.com/genteyciudadorg"><img height="40px" width="40px" src="./img/instagram_wb.PNG"></a>
+
+        </div>
+        <div class="Footer-Text2">
+            <p><span style="color: orange"> DiazApps</span><span style="color:gray"> &copy; 2020 All Right Reserved</span></p>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

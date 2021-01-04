@@ -1,0 +1,610 @@
+body {
+  font-family: "Roboto Thin",sans-serif;
+  font-weight: lighter;
+
+}
+.tabs {
+  font-size: 17px;
+  text-decoration: none;
+  position: absolute;
+  left: 35%;
+  top: 8%;
+}
+
+.logo {
+  position: relative;
+}
+
+table , th , td {
+  border: 1px solid black;
+}
+.PageTitle{
+  background-image: url("./img/homepage-one-banner.jpg"); /* The image used */
+  /*/background-color: #cccccc; / Used if the image is unavailable */
+  width: 100%;
+  height: 200px; /* You must set a specified height */
+  background-position: center;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+.Title-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  line-height: 10px;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.Footer {
+  background-image: url("./img/homepage-one-banner.jpg"); /* The image used */
+  /*/background-color: #cccccc; / Used if the image is unavailable */
+  height: 175px; /* You must set a specified height */
+  background-position: center;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Footer2 {
+  /*background-image: url("./proyecto3/homepage-one-banner.jpg"); !* The image used *!*/
+  background-color: rgba(22,22,22,0.89);
+  height: 300px; /* You must set a specified height */
+  background-position: center;
+  position: relative;
+  margin-top: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Footer-Text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.Footer-Text2 {
+  position: absolute;
+  top: 93%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.Footer-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+.line{
+  width: 45px;
+  border-bottom: 4px solid orange;
+  position: relative;
+  top : -15px;
+
+}
+
+.column1 {
+
+  float: left;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 20%;
+
+}
+
+.column2 {
+
+  float: left;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 17%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.submit_button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.submit_button2 {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.under_img {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.over_img {
+  position: absolute;
+  left: 8px;
+  top: 150px;
+  width: 50%;
+  height: available;
+
+  z-index: 1;
+}
+.Login-text {
+  position: absolute;
+  color: white;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+
+}
+
+/*Chat bubble implementation*/
+.container {
+  padding: 3% 3%;
+}
+
+.talk-bubble {
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  left: 10%;
+  width: 320px;
+  height: auto;
+  background-color: white;
+}
+
+.talk-text{
+  padding: 0.4em;
+  text-align: left;
+  line-height: 1.2em;
+}
+.bubble-footer{
+  position: relative;
+  top: 45px;
+  left: 30px;
+
+}
+.border{
+  border: 1px solid lightgray;
+}
+
+.tri-right.border.btm-left:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -2px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 22px solid;
+  border-color: transparent transparent transparent lightgray;
+}
+/*Coloums for the text bubbles*/
+.column1-3 {
+
+  float: left;
+  width: 33%;
+  padding-top: 40px;
+  padding-left: 10%;
+
+}
+
+.column2-3 {
+
+  float: left;
+  width: 33%;
+  padding-top: 40px;
+  padding-left: 4%;
+  padding-right: 1%;
+
+}
+
+.column3-3 {
+
+  float: left;
+  width: 33%;
+  padding-top: 40px;
+  padding-left: 0%;
+  padding-right: 33%;
+
+}
+
+/*coloums for text after text bubbles*/
+.column1-text {
+
+  float: left;
+  width: 40%;
+  padding-top: 110px;
+  padding-left: 18%;
+  padding-right: 2%;
+
+}
+
+.column2-text {
+
+  float: left;
+  width: 20%;
+  padding-top: 110px;
+  padding-left: 2%;
+  padding-right: 1%;
+
+}
+
+.column3-text {
+
+  float: left;
+  width: 40%;
+  padding-top: 110px;
+  padding-left: 5%;
+  padding-right: 15%;
+
+}
+
+/*footer coloums for about us*/
+.column1-footer {
+
+  float: left;
+  width: 50%;
+  padding-top: 35px;
+  padding-left: 15%;
+  padding-right: 0%;
+
+}
+
+.column2-footer {
+
+  float: left;
+  width: 50%;
+  padding-top: 70px;
+  padding-right: 15%;
+
+}
+.subTitle{
+  position:relative;
+  text-align: center;
+}
+.Tiles{
+  margin-top: 20px;
+  position: relative;
+  align-content: center;
+  align-text:center;
+  margin-left:28%;
+  margin-right:15%;
+  padding-top: 2%;
+  clear:both;
+  clear-after: both;
+}
+.cardEquipos {
+  /* Add shadows to create the "card" effect */
+  float:left;
+  position: relative;
+  width: 250px;
+  height: 350px;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.cardEquipos img{
+  width:100%;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  float:left;
+  position: relative;
+  width: 250px;
+  height: 300px;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card img{
+  width:100%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  padding: 2px 16px;
+}
+.laterText{
+  top:70px;
+  clear:left;
+  position:relative;
+  text-align: center;
+  padding-bottom: 1%;
+}
+.colorItalic{
+  color:orange;
+}
+.Tiles1{
+  top:0px;
+  margin-top: 20px;
+  position: relative;
+  align-content: center;
+  align-text:center;
+  margin-left:28%;
+  margin-right:20%;
+  padding-top: 2%;
+  clear-after: both;
+}
+.card1 {
+  /* Add shadows to create the "card" effect */
+  float: left;
+  position: relative;
+  width: 185px;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card1 img{
+  width:100%;
+}
+.Text1{
+  clear:left;
+  top:250px;
+  position:relative;
+  padding-bottom: 1%;
+}
+/*Inicio
+ */
+#tile-box {
+//margin: auto;
+  box-shadow: 0 4px 10px 0  rgba(0, 0, 0, 0.2);
+  display: table;
+  text-align:center;
+  margin-left:30%;
+  margin-top:4%;
+}
+.tile {
+  width: 42em;
+  height: 17em;
+  background-color: #fff;
+  margin: 1em;
+  padding: 0;
+  display: inline-block;
+  clear: left;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+}
+.table2{
+  margin-top: 40px;
+  float:left;
+  width:50%;
+  height:300px;
+  background-color: orange;
+}
+#tbl1{
+  position:relative;
+  top:7%;
+  height: 50%;
+  left:25%;
+  width:50%;
+  background-color: orange;
+
+}
+#th1{
+  padding: 5%;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+}
+#th2{
+  padding: 5%;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+#td1{
+  padding: 5%;
+  text-align: center;
+  border-right: 1px solid #ddd;
+
+}
+#td2{
+  padding: 5%;
+  text-align: center;
+}
+.table3{
+  float:left;
+  margin-top: 40px;
+  left:50%;
+  width:50%;
+  height:300px;
+  background-image: url("./img/homepage-one-banner.jpg");
+}
+.Text{
+  padding-left: 20%;
+  clear:left;
+  top:5%;
+  position:relative;
+  color:white;
+}
+.greyRow{
+  width:100%;
+  position: relative;
+  top: -32px;
+  height:250px;
+  background-color: #cccccc;
+}
+#img1{
+  margin-top:1%;
+  margin-left:35%;
+  width:7%;
+  height:40%;
+}
+#img2{
+  margin-top:2%;
+  margin-left: 15%;
+  width:7%;
+  height:40%;
+}
+.TilesInicio{
+  height:300px;
+  margin-top: 2%;
+  margin-left:25%;
+  margin-right:15%;
+  align-content: center;
+}
+.cardInicio {
+  /* Add shadows to create the "card" effect */
+  float: left;
+  position: relative;
+  width: 25%;
+  height:300px;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.cardInicio img{
+  width:100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.cardInicio:hover {
+
+}
+/*Registration and New Event*/
+.register {
+  position: relative;
+  top: 30px;
+}
+.column1_reg {
+
+  float: left;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 35%;
+
+}
+
+.column2_reg {
+
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 17%;
+
+}
+.login_buttons {
+  position: absolute;
+  top:-50px;
+  right: -200px ;
+}
+
+
+
+.admin_buttons {
+  text-align: center;
+}
+
+.popup {
+  background: rgba(19,18,17,0.46);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.popup_content {
+  height: 300px;
+  width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.input1 {
+  margin: 20px auto;
+  display: block;
+  width: 50%;
+  padding: 8px;
+  border: 1px solid gray;
+}
+
+.close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+  cursor: pointer;
+}
+
+.admin_login {
+  position: relative;
+  top: 10%;
+  left: -20%;
+}
+
+.event_button {
+
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
